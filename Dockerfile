@@ -6,5 +6,3 @@ RUN curl -L https://github.com/remind101/ssm-env/releases/download/v0.0.2/ssm-en
       chmod +x ssm-env
 
 ENTRYPOINT ["/usr/local/bin/ssm-env", "-with-decryption"]
-
-#Build
